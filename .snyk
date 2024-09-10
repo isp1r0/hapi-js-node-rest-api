@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - hapi > joi > hoek:
+        patched: '2024-09-10T23:33:50.668Z'
+        id: 'npm:hoek:20180212'
+        path: hapi > joi > hoek
+    - hapi > joi > topo > hoek:
+        patched: '2024-09-10T23:33:50.668Z'
+        id: 'npm:hoek:20180212'
+        path: hapi > joi > topo > hoek
+    - hapi > catbox > joi > hoek:
+        patched: '2024-09-10T23:33:50.668Z'
+        id: 'npm:hoek:20180212'
+        path: hapi > catbox > joi > hoek
+    - hapi > heavy > joi > hoek:
+        patched: '2024-09-10T23:33:50.668Z'
+        id: 'npm:hoek:20180212'
+        path: hapi > heavy > joi > hoek
+    - hapi > statehood > joi > hoek:
+        patched: '2024-09-10T23:33:50.668Z'
+        id: 'npm:hoek:20180212'
+        path: hapi > statehood > joi > hoek
+    - hapi > catbox > joi > topo > hoek:
+        patched: '2024-09-10T23:33:50.668Z'
+        id: 'npm:hoek:20180212'
+        path: hapi > catbox > joi > topo > hoek
+    - hapi > heavy > joi > topo > hoek:
+        patched: '2024-09-10T23:33:50.668Z'
+        id: 'npm:hoek:20180212'
+        path: hapi > heavy > joi > topo > hoek
+    - hapi > statehood > joi > topo > hoek:
+        patched: '2024-09-10T23:33:50.668Z'
+        id: 'npm:hoek:20180212'
+        path: hapi > statehood > joi > topo > hoek
